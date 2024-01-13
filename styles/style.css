@@ -95,7 +95,8 @@ nav h2 {
     font-weight: 700;
     line-height: normal;
 }
-.banner-content .banner-btn:hover{
+
+.banner-content .banner-btn:hover {
     padding: 13px 23px;
     background: #00000000;
     color: #E02C6DDE;
@@ -155,6 +156,12 @@ nav h2 {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    transition: .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.248);
 }
 
 .card img {
@@ -217,7 +224,8 @@ nav h2 {
     line-height: normal;
     transition: .3s ease-out;
 }
-.see-more:hover{
+
+.see-more:hover {
     transform: scale(1.2);
 }
 
@@ -270,7 +278,8 @@ nav h2 {
     font-weight: 700;
     line-height: normal;
 }
-.feature-btn:hover{
+
+.feature-btn:hover {
     padding: 9px 23px;
     background: #00000000;
     color: #E02C6DDE;
@@ -279,10 +288,11 @@ nav h2 {
 }
 
 /* footer started here */
-footer{
+footer {
     padding: 50px 0;
     background: #0A0826;
 }
+
 .footer-area {
     margin: 0 auto;
     display: flex;
@@ -414,7 +424,7 @@ footer{
         width: 100%;
     }
 
-    
+
 
     .footer-area h2 {
         font-size: 16px;
@@ -517,6 +527,7 @@ footer{
     .feature-img img {
         width: 100%;
     }
+
     .footer-area h2 {
         font-size: 20px;
 
